@@ -66,7 +66,7 @@ function createWindow()
     ])
 
     // Set title for tray icon
-    appIcon.setTitle('Poddycast')
+    // appIcon.setTitle('Poddycast')
 
     // Set toot tip for tray icon
     appIcon.setToolTip('Poddycast')
@@ -75,7 +75,7 @@ function createWindow()
     appIcon.setContextMenu(contextMenu)
 
     // Always highlight the tray icon
-    appIcon.setHighlightMode('always')
+    // appIcon.setHighlightMode('always')
 
     // The tray icon is not destroyed
     appIcon.isDestroyed(false)
